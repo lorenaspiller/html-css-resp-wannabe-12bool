@@ -6,7 +6,7 @@
 /* /debug */
 
 /* mix */
-.lezioni {
+.lezioni, .steps {
   text-align: center;
 }
 /* mix */
@@ -34,3 +34,28 @@ h3 {
   padding: 30px;
 }
 /* /sezione lezioni */
+
+/* sezione steps */
+.steps{
+  background-color: #f9f9f9;
+}
+
+.steps .cerca_img,
+.steps .contatta_img,
+.steps .inizia_img {
+  height: 150px;
+}
+
+.steps_titolo,
+.cerca,
+.contatta,
+.inizia {
+  padding: 30px;
+}
+
+.cerca_testo,
+.contatta_testo,
+.inizia_testo {
+  margin: 30px 0;
+}
+/* sezione steps */
