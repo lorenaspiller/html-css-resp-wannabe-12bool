@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #fff;
+  background-color: rgba(128, 208, 199, 0.3);
 }
 
 /* debug */
@@ -20,8 +21,8 @@ body {
 .steps,
 .why {
   border-radius: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 /* mix */
 
@@ -64,7 +65,7 @@ p {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  height: 200px;
+  max-height: 150px;
 }
 
 .lezioni_titolo,
