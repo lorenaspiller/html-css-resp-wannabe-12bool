@@ -6,7 +6,7 @@
 /* /debug */
 
 /* mix */
-.lezioni, .steps {
+.lezioni, .steps, .why {
   text-align: center;
 }
 /* mix */
@@ -14,6 +14,11 @@
 /* typo */
 h3 {
   margin-bottom: 20px;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 10px;
 }
 /* typo */
 
@@ -59,3 +64,41 @@ h3 {
   margin: 30px 0;
 }
 /* sezione steps */
+
+/* sezione why */
+.why {
+  margin-top: 80px;
+  background-color: #f9f9f9;
+}
+
+.scuola_img,
+.garanzia_img,
+.flessibilita_img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.why_titolo,
+.scuola,
+.garanzia,
+.flessibilita {
+  padding: 30px;
+}
+
+.scuola_testo,
+.garanzia_testo,
+.flessibilita_testo {
+  padding: 0 40px;
+}
+/* /sezione why */
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  hr {
+    display: none;
+  }
+}
+/* /RESPONSIVE */
