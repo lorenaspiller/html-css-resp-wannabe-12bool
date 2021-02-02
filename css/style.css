@@ -1,0 +1,36 @@
+/* debug */
+.debug {
+  background-color: pink;
+  border: 1px solid black;
+}
+/* /debug */
+
+/* mix */
+.lezioni {
+  text-align: center;
+}
+/* mix */
+
+/* typo */
+h3 {
+  margin-bottom: 20px;
+}
+/* typo */
+
+
+
+/* sezione lezioni */
+.lezioni .mappa_img, .lezioni .laptop_img  {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 200px;
+}
+
+.lezioni_titolo,
+.mappa, .laptop,
+.mappa_testo,
+.laptop_testo {
+  padding: 30px;
+}
+/* /sezione lezioni */
